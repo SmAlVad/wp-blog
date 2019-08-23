@@ -597,7 +597,7 @@ div.wpcf7-response-output {
 # Header
 --------------------------------------------------------------*/
 .site-header {
-  padding: 50px 0 100px;
+  padding: 0 0 25px 0;
   position: relative;
 }
 
@@ -628,6 +628,17 @@ div.wpcf7-response-output {
 
 .header-image {
   text-align: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}
+
+.header-image img {
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
